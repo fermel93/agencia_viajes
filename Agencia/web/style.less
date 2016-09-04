@@ -1,0 +1,38 @@
+@import "functions";
+
+body {
+	color: @color;
+	font-family: @font;
+	background-color: @background;
+
+	& > secction {
+		padding: 5em 0;
+	}
+
+	div.round{
+	.redondear(10px);
+		
+	}
+
+header {
+	background-color: #ccc;
+
+	h1 {
+		font-size: 300px;
+
+	}
+}
+
+div.mini-round{
+	.redondear(5px);
+}
+
+footer{
+	a{
+		&:hover{
+			color: #555;
+		}
+		color: #000;
+	}
+}
+}
